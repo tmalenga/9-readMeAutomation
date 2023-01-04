@@ -1,0 +1,23 @@
+{
+  "name": "9-readmeautomation",
+  "version": "1.0.0",
+  "description": "ReadMe Automation using JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tmalenga/9-readMeAutomation.git"
+  },
+  "author": "Tinashe Malenga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tmalenga/9-readMeAutomation/issues"
+  },
+  "homepage": "https://github.com/tmalenga/9-readMeAutomation#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "inquirer": "^8.2.4"
+  }
+}
