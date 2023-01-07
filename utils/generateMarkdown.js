@@ -52,17 +52,31 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `
   # ${data.title}
-  
-  ## ${renderLicenseSection(data.license)} ${renderLicenseBadge(data.license)}
-  ### ${renderLicenseLink(data.license)}
+
+  ## Description:
+  ### ${data.description}
+
+  ## Table of Contents:
+  ### ${data.toc}
 
   ## Installation:
   ### You must install the following for this app to function:
   ### ${data.installation}
 
-  
   ## Usage:
   ### ${data.usage}
+  
+  
+  ## Credits:
+  ### ${data.credits}
+
+  ## ${renderLicenseSection(data.license)} ${renderLicenseBadge(data.license)}
+  ### ${renderLicenseLink(data.license)}
+
+
+
+  
+
 
 
 `;

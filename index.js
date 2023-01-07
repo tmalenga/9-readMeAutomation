@@ -47,8 +47,9 @@ const questions =
     },
 
     {
-        type: "input",
+        type: "list",
         message: "License:  ",
+        choices: ["APACHE 2.0", "MIT", "None"],
         name: "license",
     },
 ];
