@@ -6,7 +6,7 @@ const { response } = require('express');
 // TODO: Create an array of questions for user input
 // inquirer
 // .prompt(
-    
+
 const questions = 
 [
     {
@@ -50,13 +50,22 @@ const questions =
         message: "License:  ",
         name: "license",
     },
-]);
+];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data)
+}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    inquirer.prompt(questions)
+    .then(function(data) {
+        console.log(data);
+    //var fileContent = generateMarkdown(data);
+   // writeToFile(fileName, data)
+    });
+}
 
 // Function call to initialize app
 init();
