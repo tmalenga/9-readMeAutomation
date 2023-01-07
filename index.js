@@ -18,7 +18,37 @@ inquirer
         type: "input",
         message: "Project description:  ",
         name: "description",
-    }
+    },
+
+    {
+        type: "input",
+        message: "Table of Contents (Optional):  ",
+        name: "toc",
+    },
+
+    {
+        type: "input",
+        message: "Installation:  ",
+        name: "installation",
+    },
+
+    {
+        type: "input",
+        message: "Usage:  ",
+        name: "usage",
+    },
+
+    {
+        type: "input",
+        message: "Credits:  ",
+        name: "credits",
+    },
+
+    {
+        type: "input",
+        message: "License:  ",
+        name: "license",
+    },
 ]);
 
 // TODO: Create a function to write README file
