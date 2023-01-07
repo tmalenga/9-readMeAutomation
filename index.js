@@ -4,9 +4,10 @@ const fs = require('fs');
 const { response } = require('express');
 
 // TODO: Create an array of questions for user input
-inquirer
-.prompt(
-// const questions = 
+// inquirer
+// .prompt(
+    
+const questions = 
 [
     {
         type: "input",
