@@ -40,8 +40,14 @@ const questions =
 
     {
         type: "input",
-        message: "Credits:  ",
-        name: "credits",
+        message: "Contribution Guidelines:  ",
+        name: "contribution_guidelines",
+    },
+
+    {
+        type: "input",
+        message: "Test Instructions:  ",
+        name: "test_instructions",
     },
 
     {
@@ -50,6 +56,20 @@ const questions =
         choices: ["APACHE 2.0", "MIT", "None"],
         name: "license",
     },
+
+    {
+        type: "input",
+        message: "Enter Github Username:  ",
+        name: "github_username",
+    },
+
+    {
+        type: "input",
+        message: "Enter email address: ",
+        name: "email"
+    }
+
+
 ];
 
 

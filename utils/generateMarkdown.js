@@ -64,11 +64,18 @@ function generateMarkdown(data) {
   ### ${data.usage}
   
   
-  ## Credits:
-  ### ${data.credits}
+  ## Contributing:
+  ### ${data.contribution_guidelines}
+
+  ## Test Instructions:
+  ### ${data.test_instructions}
 
   ## ${renderLicenseSection(data.license)} ${renderLicenseBadge(data.license)}
   ### ${renderLicenseLink(data.license)}
+
+  ## Questions:
+  ## Please find me on github using my github username ${data.github_username}.
+  ## For any questions or if you would like to get ahold of me, please reachout to me on ${data.email}.
 `;
 }
 
