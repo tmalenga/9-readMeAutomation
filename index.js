@@ -76,7 +76,7 @@ const questions =
 function writeToFile(userInput) {
     fs.writeFile('./newREADME.md', userInput, function(err){
         if (err) throw err
-        console.log("success");
+        console.log("README successfully generated!");
     })
 }
 
