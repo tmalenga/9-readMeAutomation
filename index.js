@@ -20,11 +20,11 @@ const questions =
         name: "description",
     },
 
-    {
-        type: "input",
-        message: "Table of Contents (Optional):  ",
-        name: "toc",
-    },
+    // {
+    //     type: "input",
+    //     message: "Table of Contents (Optional):  ",
+    //     name: "toc",
+    // },
 
     {
         type: "input",
