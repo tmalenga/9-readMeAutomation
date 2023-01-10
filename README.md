@@ -15,8 +15,6 @@ N/A
 - The user will be prompted on a series of questions
 - The user will provide responses that will be used to populate the contents of their README file.
 
-
-
 ## Credits
 
 N/A
