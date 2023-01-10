@@ -1,8 +1,8 @@
 
-  # th
+  # ReadMe Automation
 
   ## Description:
-  ### ht
+  ### To auto the creation of readME files through the command line
 
   ## Table of Contents:
   * [Description](#Description)
@@ -15,21 +15,21 @@
 
   ## Installation:
   ### You must install the following for this app to function:
-  ### tht
+  ### n/a
 
   ## Usage:
-  ### th
+  ### n/a
   
   
   ## Contributing:
-  ### th
+  ### n/a
 
   ## Test Instructions:
-  ### th
+  ### still to figure this out
 
-  ## License: APACHE 2.0   
-  ### 
+  ## License: MIT  ![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)
+  ### https://choosealicense.com/licenses/mit/
 
   ## Questions:
-  ## Please find me on github using my github username tj.
-  ## For any questions or if you would like to get ahold of me, please reachout to me on th.
+  ## Please find me on github using my github username clueless.
+  ## For any questions or if you would like to get ahold of me, please reachout to me on cluess@id.com.
