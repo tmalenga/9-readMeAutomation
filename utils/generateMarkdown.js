@@ -54,13 +54,13 @@ function generateMarkdown(data) {
   ### ${data.description}
 
   ## Table of Contents:
-  -[Description](#Description)
-  *[Installation](#Installation)
-  +[Usage](#Usage)
-  *[Contributing](#Contributing)
-  *[Test Instructions](#test_instructions)
-  *[License](#License)
-  *[Questions](#Questions)
+  * [Description](#Description)
+  * [Installation](#Installation)
+  * [Usage](#Usage)
+  * [Contributing](#Contributing)
+  * [Test Instructions](#test_instructions)
+  * [License](#License)
+  * [Questions](#Questions)
 
   ## Installation:
   ### You must install the following for this app to function:
